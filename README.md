@@ -9,10 +9,8 @@ function nextinit() {
     rm -rf ./.git
     # Reinitialises git
     git init
-    # Installs the devDependencies
-    pnpm add -D @oathompsonjones/eslint-config@latest @oathompsonjones/ts-config@latest @total-typescript/ts-reset@latest @types/jest@latest @types/node@latest @types/react@latest @types/react-dom@latest eslint@latest jest@latest ts-jest@latest typescript@latest
     # Installs the dependencies
-    pnpm add @emotion/react @emotion/styled @mui/icons-material @mui/lab @mui/material @svgr/webpack axios next react react-dom sharp simple-node-utils
+    pnpm i
     # Opens the index file in VSCode
     code ./src/index.ts
 }
