@@ -11,6 +11,7 @@ function nextinit() {
     git init
     # Installs the dependencies
     pnpm i
+    pnpm update --latest
     # Opens the index file in VSCode
     code ./src/index.ts
 }
