@@ -2,8 +2,7 @@ import Link from "next/link";
 
 /**
  * Handles any 404 errors.
- *
- * @returns {JSX.Element} An error page.
+ * @returns An error page.
  */
 export default function Error(): JSX.Element {
     return (

@@ -1,7 +1,6 @@
 /**
  * Contains the header element.
- *
- * @returns {JSX.Element} The page header.
+ * @returns The page header.
  */
 export default function Header(): JSX.Element {
     return (

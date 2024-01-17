@@ -1,7 +1,6 @@
 /**
  * Handles any 500 errors.
- *
- * @returns {JSX.Element} An error page.
+ * @returns An error page.
  */
 export default function Error({ error, reset }: { error: Error; reset: () => void; }): JSX.Element {
     // Log the error.

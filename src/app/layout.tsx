@@ -20,8 +20,7 @@ export const metadata: Metadata = {
 
 /**
  * A wrapper to build every page.
- *
- * @returns {JSX.Element} A page wrapper.
+ * @returns A page wrapper.
  */
 export default function Layout({ children }: { children: React.ReactNode; }): JSX.Element {
     return (
