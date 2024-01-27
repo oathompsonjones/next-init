@@ -9,31 +9,31 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "eslint ."
     },
     "author": "oathompsonjones",
     "license": "MIT",
     "devDependencies": {
-        "@oathompsonjones/eslint-config": "^1.0.0",
-        "@oathompsonjones/ts-config": "^0.0.29",
-        "@types/node": "^20.11.5",
+        "@oathompsonjones/eslint-config": "^1.0.9",
+        "@oathompsonjones/ts-config": "^0.0.31",
+        "@types/node": "^20.11.7",
         "@types/react": "18.2.48",
         "@types/react-dom": "18.2.18",
         "typescript": "^5.3.3",
-        "vitest": "^1.2.0"
+        "vitest": "^1.2.2"
     },
     "dependencies": {
         "@emotion/react": "^11.11.3",
         "@emotion/styled": "^11.11.0",
-        "@mui/icons-material": "^5.14.5",
-        "@mui/lab": "5.0.0-alpha.161",
-        "@mui/material": "^5.15.5",
+        "@mui/icons-material": "^5.15.6",
+        "@mui/lab": "5.0.0-alpha.162",
+        "@mui/material": "^5.15.6",
         "@svgr/webpack": "^8.1.0",
-        "axios": "^1.6.5",
-        "next": "14.0.4",
+        "axios": "^1.6.7",
+        "next": "14.1.0",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "sharp": "^0.33.2",
-        "simple-node-utils": "^2.2.1"
+        "simple-node-utils": "^2.2.3"
     }
 }

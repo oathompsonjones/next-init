@@ -1,3 +1,4 @@
+import type { JSX, ReactNode } from "react";
 import Footer from "components/footer";
 import Header from "components/header";
 import type { Metadata } from "next";
@@ -7,22 +8,22 @@ export const metadata: Metadata = {
     icons: {
         apple: "",
         icon: [],
-        shortcut: ""
+        shortcut: "",
     },
     keywords: [],
     themeColor: "",
     title: "",
     viewport: {
         initialScale: 1,
-        width: "device-width"
-    }
+        width: "device-width",
+    },
 };
 
 /**
  * A wrapper to build every page.
  * @returns A page wrapper.
  */
-export default function Layout({ children }: { children: React.ReactNode; }): JSX.Element {
+export default function Layout({ children }: { children: ReactNode; }): JSX.Element {
     return (
         <html lang="en">
             <body>

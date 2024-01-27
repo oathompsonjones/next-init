@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 /**
  * Contains the footer element.
  * @returns The page footer.

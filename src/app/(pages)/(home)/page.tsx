@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 /**
  * This is the home page.
  * @returns The home page.

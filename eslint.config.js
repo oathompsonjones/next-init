@@ -1,3 +1,3 @@
-import createConfig from "@oathompsonjones/eslint-config";
+const promise = import("@oathompsonjones/eslint-config");
 
-export default createConfig("./tsconfig.json");
+module.exports = promise.then((createConfig) => createConfig.default("./tsconfig.json"));

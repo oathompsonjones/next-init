@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 /**
  * Contains the header element.
  * @returns The page header.

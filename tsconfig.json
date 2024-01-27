@@ -17,6 +17,7 @@
         "moduleResolution": "NodeNext",
         "resolveJsonModule": true,
         "isolatedModules": true,
+        "preserveConstEnums": true,
         "jsx": "preserve",
         "incremental": true,
         "plugins": [
