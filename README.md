@@ -16,7 +16,7 @@ function nextinit() {
     touch .env
     mkdir .vscode
     touch .vscode/settings.json
-    echo -e "{\n\t\"vitest.commandLine\": \"pnpx vitest watch\"\n}" > .vscode/settings.json
+    echo -e "{\n\t\"vitest.commandLine\": \"pnpx vitest watch\",\n\t\"vitest.enable\": true\n}" > .vscode/settings.json
     mkdir public
     mkdir src/images
     mkdir src/hooks
