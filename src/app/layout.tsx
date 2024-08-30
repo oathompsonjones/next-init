@@ -1,23 +1,24 @@
+import "styles/global.css";
 import type { Metadata, Viewport } from "next";
-import Footer from "components/footer";
-import Header from "components/header";
+import { Footer } from "components/footer";
+import { Header } from "components/header";
 import type { ReactNode } from "react";
 
+// https://realfavicongenerator.net (remove the mask icon and msapplication stuff)
 export const metadata: Metadata = {
-    description: "",
+    description: "My website description.",
     icons: {
-        apple: "",
+        apple: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
         icon: [],
-        shortcut: "",
+        shortcut: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     },
     keywords: [],
-    themeColor: "",
-    title: "",
+    title: "My Website",
 };
 
 export const viewport: Viewport = {
     initialScale: 1,
-    themeColor: "#",
+    themeColor: "",
     width: "device-width",
 };
 
