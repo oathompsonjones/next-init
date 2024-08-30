@@ -1,7 +1,7 @@
 import type { JSX, ReactNode } from "react";
+import type { Metadata, Viewport } from "next";
 import Footer from "components/footer";
 import Header from "components/header";
-import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
     description: "",
@@ -23,6 +23,8 @@ export const viewport: Viewport = {
 
 /**
  * A wrapper to build every page.
+ * @param props - The props to pass to the layout.
+ * @param props.children - The children to render.
  * @returns A page wrapper.
  */
 export default function Layout({ children }: { children: ReactNode; }): JSX.Element {
