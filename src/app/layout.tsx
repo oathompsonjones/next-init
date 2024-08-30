@@ -1,7 +1,7 @@
-import type { JSX, ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import Footer from "components/footer";
 import Header from "components/header";
+import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
     description: "",
@@ -27,7 +27,7 @@ export const viewport: Viewport = {
  * @param props.children - The children to render.
  * @returns A page wrapper.
  */
-export default function Layout({ children }: { children: ReactNode; }): JSX.Element {
+export default function Layout({ children }: { children: ReactNode; }): ReactNode {
     return (
         <html lang="en">
             <body>

@@ -1,10 +1,10 @@
-import type { JSX } from "react";
+import type { ReactNode } from "react";
 
 /**
  * This is the home page.
  * @returns The home page.
  */
-export default function Home(): JSX.Element {
+export default function Home(): ReactNode {
     return (
         <>Home Page</>
     );
