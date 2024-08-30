@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100dvh;
+}
+
+main {
+    padding: 4rem 3rem 1rem;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
