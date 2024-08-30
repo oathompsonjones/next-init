@@ -23,9 +23,9 @@ function nextinit() {
     mkdir src/contexts
     mkdir src/assets
     mkdir src/app/api
-    mkdir src/app/(redirects)
+    mkdir src/app/\(redirects\)
     # Opens the index file in VSCode
-    code ./src/index.ts
+    code ./src/app/(pages)/(home)/page.tsx
 }
 ```
 To use the function, simply run the command `nextinit` in an empty directory using a fresh bash terminal.
