@@ -2,30 +2,30 @@
     "extends": "@oathompsonjones/ts-config",
     "compilerOptions": {
         "target": "es5",
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "esnext"
-        ],
-        "allowJs": true,
         "skipLibCheck": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
         "noEmit": true,
-        "esModuleInterop": true,
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "preserveConstEnums": true,
-        "jsx": "preserve",
         "incremental": true,
         "plugins": [
             {
-                "name": "next"
-            }
+                "name": "next",
+            },
         ],
         "paths": {
+            "app/*": [
+                "./src/app/*"
+            ],
+            "pages/*": [
+                "./src/app/(pages)/*"
+            ],
+            "redirects/*": [
+                "./src/app/(redirects)/*"
+            ],
+            "api/*": [
+                "./src/app/api/*"
+            ],
+            "assets/*": [
+                "./src/assets/*"
+            ],
             "components/*": [
                 "./src/components/*"
             ],
@@ -35,25 +35,15 @@
             "hooks/*": [
                 "./src/hooks/*"
             ],
-            "api/*": [
-                "./src/app/api/*"
-            ],
-            "pages/*": [
-                "./src/app/(pages)/*"
-            ],
-            "redirects/*": [
-                "./src/app/(redirects)/*"
-            ],
-            "app/*": [
-                "./src/app/*"
-            ],
             "images/*": [
                 "./src/images/*"
             ],
-            "assets/*": [
-                "./src/assets/*"
-            ]
-        }
+            "styles/*": [
+                "./src/styles/*"
+            ],
+        },
+        "isolatedModules": true,
+        "preserveConstEnums": true,
     },
     "include": [
         "next-env.d.ts",
@@ -62,6 +52,7 @@
         ".next/types/**/*.ts"
     ],
     "exclude": [
-        "node_modules"
-    ]
+        "node_modules",
+        ".next",
+    ],
 }

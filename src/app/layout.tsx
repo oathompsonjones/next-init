@@ -1,7 +1,7 @@
 import type { JSX, ReactNode } from "react";
 import Footer from "components/footer";
 import Header from "components/header";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
     description: "",
@@ -13,10 +13,12 @@ export const metadata: Metadata = {
     keywords: [],
     themeColor: "",
     title: "",
-    viewport: {
-        initialScale: 1,
-        width: "device-width",
-    },
+};
+
+export const viewport: Viewport = {
+    initialScale: 1,
+    themeColor: "#",
+    width: "device-width",
 };
 
 /**
