@@ -23,7 +23,6 @@ function nextinit() {
     mkdir src/contexts
     mkdir src/assets
     mkdir src/app/api
-    mkdir src/app/\(redirects\)
     # Opens the index file in VSCode
     code ./src/app/\(pages\)/\(home\)/page.tsx
 }
