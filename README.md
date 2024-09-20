@@ -18,10 +18,10 @@ function nextinit() {
     touch .vscode/settings.json
     echo -e "{\n\t\"vitest.commandLine\": \"pnpx vitest watch\",\n\t\"vitest.enable\": true\n}" > .vscode/settings.json
     mkdir public
-    mkdir src/images
     mkdir src/hooks
     mkdir src/contexts
     mkdir src/assets
+    mkdir src/assets/images
     mkdir src/app/api
     # Opens the index file in VSCode
     code ./src/app/\(pages\)/\(home\)/page.tsx
