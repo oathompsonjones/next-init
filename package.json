@@ -16,6 +16,7 @@
     "author": "oathompsonjones",
     "license": "MIT",
     "devDependencies": {
+        "@million/lint": "^1.0.14",
         "@oathompsonjones/eslint-config": "^1.5.9",
         "@oathompsonjones/ts-config": "^1.0.0",
         "@types/node": "^26.6.5",

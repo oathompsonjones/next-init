@@ -1,7 +1,8 @@
 {
     "extends": "@oathompsonjones/ts-config",
     "compilerOptions": {
-        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "Bundler",
         "skipLibCheck": true,
         "noEmit": true,
         "incremental": true,
@@ -32,21 +33,22 @@
             "hooks/*": [
                 "./src/hooks/*"
             ],
-            "images/*": [
-                "./src/images/*"
-            ],
             "styles/*": [
                 "./src/styles/*"
             ],
+            "actions/*": [
+                "./src/actions/*"
+            ],
+            "public/*": [
+                "./public/*"
+            ],
         },
-        "isolatedModules": true,
-        "preserveConstEnums": true,
     },
     "include": [
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        ".next/types/**/*.ts"
+        ".next/types/**/*.ts",
     ],
     "exclude": [
         "node_modules",
