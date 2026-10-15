@@ -2,6 +2,7 @@
     "name": "next-init",
     "version": "0.0.1",
     "description": "",
+    "type": "module",
     "repository": {
         "url": "https://github.com/oathompsonjones/next-init.git"
     },
